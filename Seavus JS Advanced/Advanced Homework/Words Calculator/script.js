@@ -139,6 +139,11 @@ function startCalculator(inputs){
     // na mnogu mesta ima if statements sto pomagaat da nekoi zborovi kako "and" stojat na tocnoto mesto vo tocnoto vreme, i eden kup validacii
     //
 
+    if (!inputs[1].checked && !inputs[2].checked && !inputs[3].checked){
+        result.style.color = "red";
+        result.innerText += `No button is selected.`;
+        return;
+    }
     if (inputs[1].checked){ // words
         wordify(wholePart, wholeFlag);
         if (decimalPart != undefined && parseInt(decimalPart) != 0){
