@@ -1,0 +1,32 @@
+body {
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #665544;
+}
+blockquote {
+    float: right;
+    width: 275px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
+section {
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+}
+div {
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+}
+.left {
+    float: left;
+    background: pink;
+}
+.right {
+    float: right;
+    background: cyan;
+}

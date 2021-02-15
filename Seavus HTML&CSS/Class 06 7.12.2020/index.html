@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style type="text/css">
+        p, h1, h2 {
+            font-family: Arial;
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+        }
+    </style>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Yoko's Kitchen</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Classes</a></li>
+                <li><a href="">Catering</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a>
+                    <ol class="red-color">
+                        <li>First test</li>
+                        <li>Second test</li>
+                    </ol>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class="first-article">
+                <h2>Japanese vegetarian</h2>
+                <h3>Five week course in London</h3>
+                <p id="first-article-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, enim aperiam minima quibusdam hic rerum ad mollitia facilis sequi odit, ipsum unde distinctio eos asperiores? Perspiciatis quasi culpa quo quos.</p>
+            </article>
+            <article>
+                <h2>Sauces Masterclass</h2>
+                <h3>One day workshop</h3>
+                <p id="second-article-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, enim aperiam minima quibusdam hic rerum ad mollitia facilis sequi odit, ipsum unde distinctio eos asperiores? Perspiciatis quasi culpa quo quos.</p>
+                <p id="second-article-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, enim aperiam minima quibusdam hic rerum ad mollitia facilis sequi odit, ipsum unde distinctio eos asperiores? Perspiciatis quasi culpa quo quos.</p>
+            </article>
+        </section>
+    </main>
+    <aside>
+        <h2>Popular recipes</h2>
+        <a href="">Grilled Chicken</a>
+        <a href="">Minced Chicken</a>
+        <a href="">Savory Pancakes</a>
+        <a href="">Chicken Stew</a>
+    </aside>
+    <footer class="red-color">&#169; 2011 Yoko's Kitchen</footer>
+</body>
+</html>

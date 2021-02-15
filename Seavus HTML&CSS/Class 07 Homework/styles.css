@@ -1,0 +1,43 @@
+body{
+    font-size: 20px;
+    background-color: #212121;
+    color: rgb(179, 173, 173);
+}
+.one{
+    font-family: 'Indie Flower', cursive;
+    font-size: xx-large;
+    text-decoration: line-through red;
+    text-shadow: 4px 3px 10px red;
+}
+.two{
+    font-family: 'Langar', cursive;
+    font-size: 150%;
+    text-transform: uppercase;
+    text-decoration: wavy overline yellow;
+    text-shadow: 1px 5px 10px yellow;
+    
+}
+.three{
+    font-family: 'Kalam', cursive;
+    font-size: 1.3em;
+    text-transform: lowercase;
+    text-decoration: line-through dotted blue;
+    text-align: center;
+}
+.four{
+    font-family: 'Neucha', cursive;
+    font-size: 2rem;
+    line-height: 200%;
+    letter-spacing: 2px;
+    text-align: end;
+    color: rgba(153, 13, 13, 0.5);
+}
+.five{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.5em;
+    text-decoration: underline dotted red;
+    line-height: 75%;
+}
+.three::first-letter{
+    text-transform: uppercase;
+}

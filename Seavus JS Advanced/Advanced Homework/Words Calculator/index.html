@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers to Words Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="title">
+            <p id="title-text">Numbers to words calculator</p>
+        </div>
+        <div id="main">
+            <p>Convert this number:</p>
+            <input id="input" type="text" placeholder="enter a number">
+            <p style="margin-bottom: 0;">To:</p>
+            <div id="row">
+                <input id="input" type="radio" name="calculator" value="words"/>
+                <label for="calculator">Words</label>
+            </div>
+            <div id="row">
+                <input id="input" type="radio" name="calculator" value="currency"/>
+                <label for="calculator">Currency</label>
+            </div>
+            <div id="row">
+                <input id="input" type="radio" name="calculator" value="check-writing"/>
+                <label for="calculator">Check Writing</label><br/></br>
+            </div>
+            <div id="letter-case">
+                <text>Letter Case: </text>
+                <select name="list" id="input">
+                    <option value="lowercase">lowercase</option>
+                    <option value="uppercase">UPPERCASE</option>
+                    <option value="titlecase">Title Case</option>
+                    <option value="sentencecase">Sentence case</option>
+                </select>
+            </div>
+        </div>
+        <div id="buttons">
+            <button id="clear">Clear</button>
+            <button id="calculate">Calculate</button>
+        </div>
+        <div id="result-box">
+            <text>Answer:</text><br/>
+            <text id="result"></text>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+p::first-line {
+    color: tomato;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p::first-letter {
+    text-decoration: underline;
+}
+span::before {
+    content: "♥"
+}
+p::selection {
+    background-color: red;
+    color: yellow;
+}

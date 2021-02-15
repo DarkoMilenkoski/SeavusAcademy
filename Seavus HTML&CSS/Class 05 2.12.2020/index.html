@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Our First Form</h1>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username"/><br/>
+        <label for="secondusername">Second Username</label>
+        <input type="text" name="secondusername" id="secondusername"/>
+        <input type="submit"/>
+    </form><br/><br/>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="myUsername" placeholder="Enter Username" required/><br/><br/>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email" required/><br/><br/>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter Password" required/><br/><br/>
+        <!-- Radio -->
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male"/><br/>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female"/><br/>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" value="other"/><br/>
+        <!-- Comments -->
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" cols="20" rows="4"></textarea><br/><br/>
+        <!-- Checkbox -->
+        <label for="itunes">itunes</label>
+        <input type="checkbox" name="checkbox" id="itunes" value="itunes" checked="checked"/>
+        <label for="lastfm">lastfm</label>
+        <input type="checkbox" name="checkbox" id="lastfm" value="lastfm" checked="checked"/>
+        <label for="spotify">spotify</label>
+        <input type="checkbox" name="checkbox" id="spotify" value="spotify" checked="checked"/><br/><br/>
+        <!-- Dropdown list -->
+        <label for="list">select</label>
+        <select name="list" id="list">
+            <option value="edno">edno</option>
+            <option value="dve">dve</option>
+            <option value="tri">tri</option>
+        </select><br/><br/>
+        <!-- Multiple selection -->
+        <label for="instruments">Do you play any of these instruments?</label>
+        <select name="instruments" id="instruments" size="3" multiple="multiple">
+            <option value="guitar" selected>Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+        </select><br/><br/>
+        <!-- File input -->
+        <label for="user-song">Upload your song in MP3 format:</label>
+        <input type="file" name="user-song" id="user-song" />
+        <!-- Submit and reset -->
+        <label for="email">Subscribe to our email list:</p>
+        <input type="text" name="email" id="email" />
+        <input type="submit" value="Subscribe" />
+        <input type="reset" value="Reset Form" /><br/><br/>
+        <button>
+            <img src="./icon-plus.svg" alt="plus-sign" 
+            width="10" /> Add
+        </button>
+        <input type="hidden" name="product-code"
+        value="P1234" /><br/><br/>
+        <!-- Grouping form elements -->
+        <fieldset>
+            <legend>Contact details</legend>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" />
+            <label for="mobile">Mobile:</label>
+            <input type="text" name="mobile" id="mobile" />
+            <label for="telephone">Telephone:</label>
+            <input type="text" name="telephone" id="telephone" />
+        </fieldset>
+    </form>
+</body>
+</html>

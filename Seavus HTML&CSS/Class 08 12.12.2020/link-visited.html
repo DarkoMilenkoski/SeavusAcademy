@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Visited</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+        body {
+            font-family: 'Langar', cursive;
+        }
+        a {
+            color: darkred;
+        }
+        a:link {
+            color: darkred;
+            text-decoration: none;
+        }
+        a:visited {
+            color: black;
+        }
+        input.submit:hover {
+            background-color: cornflowerblue;
+        }
+        input.submit:active {
+            background-color: dodgerblue;
+        }
+        input.text {
+            color: #cccccc;
+        }
+        input.text:focus {
+            color: #665544;
+            outline: none;
+            border-color: red;
+        }
+        .lorem-pagraraph {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dog Breeds: B </h1>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Basset_Hound">Basset Hound</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Beagle">Beagle</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Bearded_Collie">Bearded Collie</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Belgian_Shepherd">Belgian Shepherd</a></li>
+    </ul>
+    <form>
+        <input type="text" class="text" value="Enter email address...">
+        <input type="submit" class="submit">
+    </form>
+    <div class="lorem-pagraraph">
+        Lorem ipsum <span style="color: red">dolor</span>, sit amet consectetur adipisicing elit. Vel atque, quos qui ratione eaque iusto facere, est corrupti praesentium eveniet obcaecati? Provident nobis sunt ipsa id possimus repellendus quibusdam labore!
+    </div>
+</body>
+</html>

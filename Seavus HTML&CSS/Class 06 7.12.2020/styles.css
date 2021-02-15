@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3 {
+    color: blueviolet;
+}
+section {
+    color: magenta;
+}
+#first-article-paragraph {
+    font-size: 20px;
+}
+#second-article-paragraph {
+    font-size: 15px;
+}
+ul>li>a {
+    color: black;
+}
+article h3 {
+    color: inherit;
+}
+.red-color {
+    color: red;
+}
+h3+p {
+    color: darkblue !important;
+}
+h3~p {
+    color: darkorange;
+}

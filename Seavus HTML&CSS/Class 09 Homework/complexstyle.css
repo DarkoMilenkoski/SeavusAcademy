@@ -1,0 +1,160 @@
+.box{
+    background-color: #000000;
+    width: 902px;
+    height: 880px;
+}
+.box1{
+    background-color: #E5EEEB;
+    float: left;
+    width: 220px;
+    height: 88px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+.box2{
+    background-color: #F2E7D5;
+    float: left;
+    width: 325px;
+    height: 88px;
+    margin: 9px;
+    margin-top: 0;
+}
+.box3{
+    background-color: #F2C968;
+    float: left;
+    width: 257px;
+    height: 88px;
+    margin: 9px;
+    margin-top: 0;
+}
+.box4{
+    background-color: #FCFDE7;
+    float: right;
+    width: 46px;
+    height: 676px;
+    margin-left: 9px;
+    margin-bottom: 9px;
+}
+.box5{
+    background-color: #FBFDE7;
+    float: left;
+    width: 105px;
+    height: 217px;
+    margin: 9px;
+    margin-left: 0;
+}
+.box6{
+    background-color: #D62C24;
+    float: left;
+    width: 440px;
+    height: 453px;
+    margin: 9px;
+}
+.box7{
+    background-color: #EDCC6B;
+    float: left;
+    width: 257px;
+    height: 217px;
+    margin: 9px;
+}
+.box8{
+    background-color: #DFE5D0;
+    float: left;
+    width: 119px;
+    height: 218px;
+    margin: 9px;
+}
+.box9{
+    background-color: #F2EEE2;
+    float: left;
+    width: 120px;
+    height: 218px;
+    margin: 9px;
+}
+.box10{
+    background-color: #E1EAE5;
+    position: relative;
+    float: left;
+    width: 105px;
+    height: 335px;
+    bottom: 236px;
+    margin: 9px;
+    margin-left: 0px;
+}
+.box11{
+    background-color: #130309;
+    float: left;
+    width: 211px;
+    height: 198px;
+    margin: 9px;
+}
+.box12{
+    background-color: #C0BFBA;
+    float: left;
+    width: 211px;
+    height: 99px;
+    margin: 9px;
+}
+.box13{
+    background-color: #D6DEE0;
+    float: left;
+    width: 257px;
+    height: 99px;
+    margin: 9px;
+}
+.box16{
+    background-color: #DDE2D4;
+    float: left;
+    width: 211px;
+    height: 81px;
+    margin: 9px;
+}
+.box15{
+    background-color: #231785;
+    float: right;
+    width: 257px;
+    height: 140px;
+    margin: 9px;
+}
+.box14{
+    background-color: #D7362F;
+    float: right;
+    width: 46px;
+    height: 186px;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+.box17{
+    background-color: #E3DED9;
+    float: left;
+    width: 211px;
+    height: 87px;
+    margin: 9px;
+    margin-bottom: 0px;
+}
+.box18{
+    background-color: #0B0205;
+    float: left;
+    width: 211px;
+    height: 41px;
+    margin: 9px;
+}
+.box19{
+    background-color: #E0E0DF;
+    float: left;
+    width: 486px;
+    height: 28px;
+    margin: 9px;
+    margin-bottom: 0px;
+}
+.box20{
+    background-color: #F4C65A;
+    position: relative;
+    float: left;
+    bottom: 195px;
+    right: 114px;
+    width: 105px;
+    height: 186px;
+    margin-top: 9px;
+    margin-right: 9px;
+}

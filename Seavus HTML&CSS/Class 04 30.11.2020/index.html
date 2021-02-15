@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Hello world!</h1>
+    <!-- Table 1 -->
+    <table border="1">
+        <tbody>
+            <tr>
+                <th>
+                    Row 1, Collumn 1
+                </th>
+                <td>
+                    Row 1, Collumn 2
+                </td>
+                <td>
+                    Row 1, Collumn 3
+                </td>
+            </tr>
+            <tr>
+                <th>Row 2, Collumn 1</th>
+                <td>Row 2, Collumn 2</td>
+                <td>Row 2, Collumn 3</td>
+            </tr>
+        </tbody>
+    </table><br/>
+    <!-- Table 2 -->
+    <table border="1">
+        <thead>
+            <th>Mobile</th>
+            <th>Release date</th>
+            <th>Software</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Samsung A40</td>
+                <td>2019</td>
+                <td>Android 4.0</td>
+            </tr>
+            <tr>
+                <td>Huawei P40</td>
+                <td>2020</td>
+                <td>EMUI 5.0</td>
+            </tr>
+            <tr>
+                <td>Iphone 12</td>
+                <td>2020</td>
+                <td>iOS 12</td>
+            </tr>
+        </tbody>
+    </table><br/>
+    <!-- Table 3 -->
+    <table border="1" cellspacing="4">
+        <tr>
+            <th>Movies</th>
+            <th>Release Date</th>
+            <th colspan="3">Producers</th>
+        </tr>
+        <tr>
+            <td>Fight Club</td>
+            <td>1999</td>
+            <td>John Doe</td>
+            <td>Bob Bobski</td>
+            <td>John Wick</td>
+        </tr>
+        <tr>
+            <td>Movie 2</td>
+            <td>2001</td>
+            <td>Producer 3</td>
+            <td>Producer 4</td>
+            <td>Producer 5</td>
+        </tr>
+        <tr>
+            <td>Movie 3</td>
+            <td>2014</td>
+            <td>Producer 6</td>
+            <td>Producer 7</td>
+            <td>Producer 8</td>
+        </tr>
+    </table><br/>
+    <!-- Table 4 -->
+    <table border="1" style="border-collapse: collapse;">
+        <caption>Row span example table</caption>
+        <tr>
+            <th>Restaurant: </th>
+            <td>Restaurant Example</td>
+            <td>Fish Restaurant</td>
+        </tr>
+        <tr>
+            <th>Delivery:</th>
+            <td>Yes</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <th rowspan="4">Type of food:</th>
+            <td>Italian</td>
+            <td>Chinese</td>
+        </tr>
+        <tr>
+            <td>American</td>
+            <td>Russian</td>
+        </tr>
+        <tr>
+            <td>Macedonian</td>
+            <td>German</td>
+        </tr>
+        <tr>
+            <td>Serbian</td>
+            <td>Turkish</td>
+        </tr>
+    </table><br/>
+    <!-- Excercise -->
+    <table border="1">
+        <tr>
+            <th rowspan="2">
+                Student ID
+            </th>
+            <th rowspan="2">Name</th>
+            <th colspan="3">Marks</th>
+        </tr>
+        <tr>
+            <th>Maths</th>
+            <th>English</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>George</td>
+            <td>4</td>
+            <td>4</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td style="background-color: red; text-align: center;" >2</td>
+            <td>John Doe</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+    </table>
+</body>
+</html>
