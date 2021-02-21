@@ -23,7 +23,7 @@ let inputs = document.querySelectorAll("#input");
 let single = ["", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
 let double = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"];
 let combined = ["", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"];
-let groupWhole = ["", "hundred", "thousand", "million", "billion", "trillion", "quadrillion", "quintillion", "sextillion"]; // se dodeka se dodavaat brojki vo ovoj array, se pecati do tamu, i za celi broevi i za decimali.
+let groupWhole = ["", "hundred", "thousand", "million", "billion", "trillion", "quadrillion", "quintillion", "sextillion", "septillion", "octillion"]; // se dodeka se dodavaat brojki vo ovoj array, se pecati do tamu, i za celi broevi i za decimali.
 
 function groupDecimalDecider(num){ // kod sto odlucuva dali decimalniot broj e tenths, hundredths i taka natamu se do hundred-sextillionths, i go dodava toj tekst na kraj
     if (num === 1){
