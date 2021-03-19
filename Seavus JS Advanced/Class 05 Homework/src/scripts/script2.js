@@ -147,8 +147,9 @@ let starWarsApiService = {
         $.ajax({
             url: planetsUrl,
             success: function(response) {
-                //console.log("success")
-                //console.log(response)
+                console.log("success")
+                console.log(response)
+                console.log(response.results);
                 navigationService.navButtonsCheck(response)
                 uiService.loadPlanetsPage(response.results)
             },
