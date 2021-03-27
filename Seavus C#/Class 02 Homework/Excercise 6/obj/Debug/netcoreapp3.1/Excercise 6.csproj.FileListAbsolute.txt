@@ -1,0 +1,13 @@
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\bin\Debug\netcoreapp3.1\Excercise 6.exe
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\bin\Debug\netcoreapp3.1\Excercise 6.deps.json
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\bin\Debug\netcoreapp3.1\Excercise 6.runtimeconfig.json
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\bin\Debug\netcoreapp3.1\Excercise 6.runtimeconfig.dev.json
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\bin\Debug\netcoreapp3.1\Excercise 6.dll
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\bin\Debug\netcoreapp3.1\Excercise 6.pdb
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\obj\Debug\netcoreapp3.1\Excercise 6.csprojAssemblyReference.cache
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\obj\Debug\netcoreapp3.1\Excercise 6.AssemblyInfoInputs.cache
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\obj\Debug\netcoreapp3.1\Excercise 6.AssemblyInfo.cs
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\obj\Debug\netcoreapp3.1\Excercise 6.csproj.CoreCompileInputs.cache
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\obj\Debug\netcoreapp3.1\Excercise 6.dll
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\obj\Debug\netcoreapp3.1\Excercise 6.pdb
+D:\Documents\Seavus\Seavus C#\Class 02 Homework\Excercise 6\obj\Debug\netcoreapp3.1\Excercise 6.genruntimeconfig.cache
