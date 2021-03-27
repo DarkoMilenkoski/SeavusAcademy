@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Seavus\\Seavus C#\\Class 02 Homework\\Task 1\\RealCalculator.csproj",
+      "projectUniqueName": "D:\\Documents\\Seavus\\Seavus C#\\Class 02 Homework\\RealCalculator\\RealCalculator.csproj",
       "projectName": "RealCalculator",
-      "projectPath": "D:\\Documents\\Seavus\\Seavus C#\\Class 02 Homework\\Task 1\\RealCalculator.csproj",
+      "projectPath": "D:\\Documents\\Seavus\\Seavus C#\\Class 02 Homework\\RealCalculator\\RealCalculator.csproj",
       "packagesPath": "C:\\Users\\milen\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Seavus\\Seavus C#\\Class 02 Homework\\Task 1\\obj\\",
+      "outputPath": "D:\\Documents\\Seavus\\Seavus C#\\Class 02 Homework\\RealCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\milen\\AppData\\Roaming\\NuGet\\NuGet.Config",
